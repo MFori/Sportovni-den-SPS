@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_all"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_results"
+            android:icon="@drawable/ic_podium"
+            android:title="@string/menu_results" />
+        <item
+            android:id="@+id/nav_rules"
+            android:icon="@drawable/ic_notepad"
+            android:title="@string/menu_rules" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_message"
+            android:title="@string/menu_messages" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/menu_settings" />
+    </group>
+
+    <group
+        android:id="@+id/menu_referee"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_results_ref"
+            android:icon="@drawable/ic_edit"
+            android:title="@string/menu_edit_results" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/menu_notifications" />
+    </group>
+
+</menu>

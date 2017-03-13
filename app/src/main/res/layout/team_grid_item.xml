@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cz.sps_pi.sportovni_den.view.TeamTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/grid_item_team"
+    android:layout_width="90dp"
+    android:layout_height="90dp"
+    android:background="@drawable/team_icon"
+    android:gravity="center"
+    android:textColor="#000"
+    android:textSize="30sp" />

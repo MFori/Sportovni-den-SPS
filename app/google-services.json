@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1057018486726",
+    "firebase_url": "https://sportovni-den.firebaseio.com",
+    "project_id": "sportovni-den",
+    "storage_bucket": "sportovni-den.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057018486726:android:50b00aae9ee7763b",
+        "android_client_info": {
+          "package_name": "cz.sps_pi.sportovni_den"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057018486726-57s4qsid5kbju9t9pbrsqef8l90ogmb7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0nsRA4vFkoNgvlPMdBsSSJXLDvIbu5ho"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

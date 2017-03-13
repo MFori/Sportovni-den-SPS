@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cz.sps_pi.sportovni_den.Fragment.RulesFragment">
+
+    <Button
+        android:id="@+id/complete"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/login_big_button"
+        android:text="@string/results_menu_complete"
+        android:textColor="@drawable/login_big_button_text"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/sports"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/login_big_button"
+        android:text="@string/results_menu_sport"
+        android:textColor="@drawable/login_big_button_text"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/login_big_button"
+        android:text="@string/results_menu_time"
+        android:textColor="@drawable/login_big_button_text"
+        android:textSize="30sp" />
+
+</LinearLayout>

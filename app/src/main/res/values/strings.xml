@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Sportovní den</string>
+    <string name="author_name">Martin Forejt</string>
+    <string name="results_complete">Celkové výsledky</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_settings">Nastavení</string>
+    <string name="sport">Sport</string>
+
+    <!-- Menu -->
+    <string name="menu_home">Úvod</string>
+    <string name="menu_results">Výsledky</string>
+    <string name="menu_rules">Pravidla</string>
+    <string name="menu_messages">Zprávy</string>
+    <string name="menu_settings">Nastavení</string>
+    <string name="menu_edit_results">Zápis výsledků</string>
+    <string name="menu_notifications">Notifikace</string>
+    <string name="results_menu_complete">Celkové</string>
+    <string name="results_menu_sport">Disciplíny</string>
+    <string name="results_menu_time">Časová osa</string>
+
+    <!-- Login -->
+    <string name="login_i_am_player">Jsem\nsoutěžící</string>
+    <string name="login_i_am_referee">Jsem\nrozhordčí</string>
+    <string name="login_skip">Přeskočit</string>
+    <string name="login_choose_team">Vyber třídu</string>
+    <string name="login_title_referee">Rozhodčí</string>
+    <string name="login_hint_name">Jméno</string>
+    <string name="login_hint_password">Heslo</string>
+    <string name="login_btn_login">Přihlásit</string>
+    <string name="login_loading">Načítání&#8230;</string>
+    <string name="login_logining">Přihlašování&#8230;</string>
+
+
+    <!-- MainActivity -->
+    <string name="ref_dialog_title">Rozhodčí</string>
+    <string name="ref_dialog_logout">Odhlásit</string>
+    <string name="ref_dialog_name">Jméno: </string>
+    <string name="ref_dialog_email">Email:   </string>
+    <string name="exit_dialog_title">Opravdu ukončit?</string>
+    <string name="exit_dialog_yes">Ano</string>
+    <string name="exit_dialog_no">Ne</string>
+
+    <!-- Messages/Notifications -->
+    <string name="messages_empty_message">Nikde nic, \nzprávy se zobrazí zde.</string>
+    <string name="notifications_empty_message">Nikde nic, \npošlete první notifikaci.</string>
+    <string name="notifications_hint_addressee">Vyberte adresáty</string>
+    <string name="notifications_hint_subject">Nadpis</string>
+    <string name="notifications_hint_body">Text zprávy</string>
+    <string name="notifications_send">odeslat</string>
+
+    <!-- Results -->
+    <string name="complete_count_points">Počet Bodů</string>
+    <string name="complete_res_complete">Celkem</string>
+
+    <string name="results_tables">TABULKY</string>
+    <string name="results_matches">Zápasy</string>
+
+    <!-- Referee edit -->
+    <string name="referee_add_team">Tým:</string>
+    <string name="referee_add_points">Body:</string>
+    <string name="referee_add_default_points">0</string>
+    <string name="referee_add_save">zapsat</string>
+    <string name="referee_empty_message">Vložte první záznam. (+)</string>
+
+    <string name="match_detail_start">Spustit zápas</string>
+    <string name="match_detail_save">Zapsat výsledek</string>
+
+    <!-- Online -->
+    <string name="online_default_score">0</string>
+    <string name="online_default_time">00:00</string>
+    <string name="online_plus">+</string>
+    <string name="online_minus">-</string>
+    <string name="online_first_service">1. podání</string>
+    <string name="online_change_service">Střídání podání</string>
+    <string name="online_after">Po</string>
+    <string name="online_after_points">bodech</string>
+    <string name="online_after_point">Po zisku</string>
+    <string name="online_default_points">2</string>
+    <string name="online_start">START</string>
+    <string name="online_pause">Pauza</string>
+    <string name="online_resume">POKRAČOVAT</string>
+    <string name="online_end">Konec</string>
+    <string name="online_cancel">Zrušit</string>
+    <string name="online_save">Uložit</string>
+
+    <!-- Settings -->
+    <string name="settings_notifications">Notifikace</string>
+    <string name="settings_about">O aplikaci</string>
+    <string name="settings_log_out">Odhlásit se</string>
+    <string name="settings_log_in">Příhlásit se</string>
+
+    <!-- About dialog -->
+    <string name="about_close">Zavřít</string>
+    <string name="about_text">Aplikace Sportovní den zobrazuje výsledky a umožňuje zápis výsledků ze sportovního dne Střední Průmyslové školy a Vyšší odborné školy v Písku.\n\nAplikace byla vytvořená jako dlouhodobá maturitní práce.\n\nAutor: Martin Forejt</string>
+    <string name="about_link_icons">Ikony z flaticon.com</string>
+
+</resources>

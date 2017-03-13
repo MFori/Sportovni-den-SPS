@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#243c96</color>
+    <color name="colorPrimaryDark">#1c2f78</color>
+    <color name="colorAccent">#243c96</color>
+
+    <color name="colorPrimaryOld">#3F51B5</color>
+    <color name="colorPrimaryDarkOld">#303F9F</color>
+    <color name="colorAccentOld">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="team_a1">#4f7626</color>
+    <color name="team_b1">#d6044e</color>
+    <color name="team_c1">#0c30e6</color>
+    <color name="team_a2">#6529cc</color>
+    <color name="team_b2">#31dc8c</color>
+    <color name="team_c2">#803a20</color>
+    <color name="team_a3">#ec1de8</color>
+    <color name="team_b3">#22dae4</color>
+    <color name="team_c3">#ed1f1f</color>
+    <color name="team_a4">#f17b1a</color>
+    <color name="team_b4">#d4ff00</color>
+    <color name="team_c4">#20bf0f</color>
+
+</resources>
