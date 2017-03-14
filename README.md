@@ -1,1 +1,1 @@
-# Sportovni-den-SPS-Android
+# Sportovní den SPŠ Písek - Android Klient
