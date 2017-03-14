@@ -37,7 +37,7 @@ public class MessagesService extends FirebaseMessagingService {
 
         User user = LoginManager.getUser();
 
-        if (user != null && user.getId() != message.getSender()) {
+        if (user == null || user.getId() == null || user.getId() != message.getSender()) {
             try {
                 DatabaseManager.getInstance();
             } catch (ManagerNotInitializedException e) {

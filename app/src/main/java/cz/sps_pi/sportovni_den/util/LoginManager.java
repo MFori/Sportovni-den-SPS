@@ -80,6 +80,7 @@ public class LoginManager {
         SharedPreferences.Editor editor = preferences.edit();
 
         editor.putBoolean("is_logged", false);
+        editor.remove(USER_ID);
 
         editor.apply();
     }

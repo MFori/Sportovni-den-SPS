@@ -3,6 +3,7 @@ package cz.sps_pi.sportovni_den.db;
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.util.Log;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -134,7 +135,7 @@ public class MessageRepository extends Repository {
         String selectQuery = "SELECT * FROM " + TABLE;
         if (users) {
             selectQuery += " WHERE " + KEY_FROM + " = " + String.valueOf(userId);
-        } else {
+        } else if (userId != null) {
             selectQuery += " WHERE " + KEY_FROM + " != " + String.valueOf(userId);
         }
         selectQuery += " ORDER BY " + KEY_DATE;

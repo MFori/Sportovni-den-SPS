@@ -81,7 +81,8 @@ public class Route {
     public static final String DELETE = "DELETE";
 
     private static final String PREFIX_DEV = "http://192.168.0.101/sd/web/app_dev.php/api/v1/";
-    private static final String PREFIX = "http://172.16.41.140/sd/web/api/v1/";
+    //private static final String PREFIX = "http://172.16.41.140/sd/web/api/v1/";
+    private static final String PREFIX = "http://192.168.0.101/sd/web/api/v1/";
 
     private int id;
     private String url;
