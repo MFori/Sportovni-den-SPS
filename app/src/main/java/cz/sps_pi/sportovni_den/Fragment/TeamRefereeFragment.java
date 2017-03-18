@@ -419,6 +419,7 @@ public class TeamRefereeFragment extends ResultsRefFragment implements SwipeRefr
                         .addParameter("id", mMatch.getId())
                         .addNullParameter("score_1")
                         .addNullParameter("score_2")
+                        .addParameter("status", Match.STATUS_CREATED)
                         .saveIfNoConn(true)
                         .execute();
 

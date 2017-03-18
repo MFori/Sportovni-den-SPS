@@ -147,6 +147,7 @@ public class TeamRefereeDetailFragment extends ResultsRefFragment {
                 .addParameter("id", matchId)
                 .addParameter("score_1", score1)
                 .addParameter("score_2", score2)
+                .addParameter("status", Match.STATUS_END)
                 .saveIfNoConn(true)
                 .setListener(new RequestListener() {
                     @Override

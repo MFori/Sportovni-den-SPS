@@ -9,6 +9,10 @@ import java.util.Date;
  */
 
 public class Match implements Serializable {
+
+    public static final int STATUS_CREATED = 1;
+    public static final int STATUS_END = 2;
+
     private int id;
     private Sport sport;
     private Team team1;
